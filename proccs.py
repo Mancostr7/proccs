@@ -15,3 +15,4 @@ def proccs():
         if(i % 2 == 0):
             print(color + f"--> {i + 1}%", end="\r")
         time.sleep(0.01)
+proccs()
